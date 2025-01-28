@@ -1,9 +1,26 @@
+@import 'normalize.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
 
 body {
@@ -11,8 +28,9 @@ body {
   color: #000000;
   background: #ffffff;
   line-height: 25px;
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
+
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -79,4 +97,20 @@ h6 {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+.btn {
+  @apply h-48 w-[160px] text-[13px] font-bold uppercase tracking-[1px];
+}
+
+.btn-primary {
+  @apply bg-orange text-white hover:bg-orange-soft;
+}
+
+.btn-secondary {
+  @apply border-[1px] border-black text-black hover:bg-black;
+}
+
+.btn-small {
+  @apply relative text-[13px] font-bold uppercase tracking-[1px] text-black opacity-50 after:absolute after:-right-16 after:top-1/2 after:-translate-y-1/2 after:text-xl after:font-extrabold after:text-orange after:content-['>'] hover:text-orange;
 }

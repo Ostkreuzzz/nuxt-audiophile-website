@@ -1,0 +1,16 @@
+{
+  "arrowParens": "avoid",
+  "$schema": "https://json.schemastore.org/prettierrc",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "semi": true,
+  "singleQuote": true,
+  "printWidth": 80,
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "prettier"],
+  "quoteProps": "consistent",
+  "trailingComma": "none",
+  "jsxBracketSameLine": false,
+  "requirePragma": false,
+  "proseWrap": "preserve"
+}

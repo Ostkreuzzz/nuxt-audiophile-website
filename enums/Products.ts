@@ -1,0 +1,6 @@
+export enum ProductType {
+  HOME = 'HOME',
+  HEADPHONES = 'HEADPHONES',
+  SPEAKERS = 'SPEAKERS',
+  EARPHONES = 'EARPHONES'
+}
