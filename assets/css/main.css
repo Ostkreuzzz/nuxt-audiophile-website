@@ -108,7 +108,7 @@ h6 {
 }
 
 .btn-secondary {
-  @apply border-[1px] border-black text-black hover:bg-black;
+  @apply border-[1px] border-black text-black hover:bg-black hover:text-white;
 }
 
 .btn-small {
