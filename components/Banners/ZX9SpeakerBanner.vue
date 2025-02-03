@@ -1,7 +1,7 @@
 <template>
-  <a class="group" href="#">
+  <a href="#">
     <section
-      class="relative flex h-[560px] w-full justify-end overflow-hidden rounded-md bg-orange pr-[95px] group-hover:scale-105"
+      class="relative flex h-[560px] w-full justify-end overflow-hidden rounded-md bg-orange pr-[95px]"
     >
       <img
         src="/images/home/desktop/pattern-circles.svg"

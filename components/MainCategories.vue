@@ -3,7 +3,7 @@
     <ul class="flex gap-32">
       <li v-for="category in categories" :key="category" class="group">
         <div
-          class="relative flex h-[204px] w-[350px] flex-col items-center justify-end rounded-lg border-[1px] border-[#F1F1F1] bg-[#F1F1F1] p-[30px] hover:border-orange hover:shadow-xl group-hover:scale-105"
+          class="relative flex h-[204px] w-[350px] flex-col items-center justify-end rounded-lg border-[1px] border-white-soft bg-white-soft p-[30px] hover:border-orange hover:shadow-xl group-hover:scale-105"
         >
           <img
             :alt="`category ${category}`"
@@ -12,6 +12,7 @@
             class="absolute -translate-y-[100px] group-hover:scale-105"
             :src="`/images/categories/image-${category.toLowerCase()}.png`"
           />
+
           <h6>
             {{ category }}
           </h6>

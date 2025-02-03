@@ -60,7 +60,8 @@ export default {
       }
     },
     backgroundImage: {
-      'desktop-product-banner': "url('images/home/desktop/image-hero.jpg')"
+      'desktop-product-banner': "url('images/home/desktop/image-hero.jpg')",
+      'zx7-banner': "url('images/home/desktop/image-speaker-zx7.jpg')"
     }
   },
   plugins: []

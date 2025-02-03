@@ -11,11 +11,11 @@
     </div>
     <div>
       <main class="w-full max-w-[1100px]">
-        <div class="mb-220 mt-[200px]">
+        <div class="mt-[200px]">
           <MainCategories />
         </div>
-        <div class="mb-220 w-full">
-          <SpeakerBanner />
+        <div class="mt-[168px]">
+          <TopProductsSection />
         </div>
       </main>
     </div>
